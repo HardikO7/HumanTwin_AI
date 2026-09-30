@@ -56,9 +56,25 @@ app = FastAPI(
 )
 
 # ── CORS ──────────────────────────────────────────────────────────────────────
+# origins = [
+#     os.getenv("FRONTEND_ORIGIN", "http://localhost:5173"),
+#     "http://localhost:4173",   # Vite preview
+# ]
+
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=origins,
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
 origins = [
-    os.getenv("FRONTEND_ORIGIN", "http://localhost:5173"),
-    "http://localhost:4173",   # Vite preview
+    "http://localhost:5173",
+    "http://localhost:4173",
+    "https://human-twin-ai.vercel.app",
+    "https://human-twin-ai-git-main-nexus-f0a5.vercel.app",
+    "https://human-twin-ai-1eiq13c8d-nexus-f0a5.vercel.app",
 ]
 
 app.add_middleware(
