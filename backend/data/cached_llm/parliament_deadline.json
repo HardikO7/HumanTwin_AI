@@ -1,0 +1,6 @@
+{
+  "self": "Deadline",
+  "vote": "option_a",
+  "argument": "The assignment is worth 10% — even a 50% late penalty only costs 5% of the grade. The exam at 40% is non-negotiable. Historically Riya's assignments take 1.6x planned time, but she still submitted both past decisions when she chose exam prep. Risk-adjusted, Option A dominates: the downside on the assignment is small, the upside on the exam is large.",
+  "evidence": ["belief_exam_priority", "belief_avg_effort_mult", "belief_writing_postpone"]
+}

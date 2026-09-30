@@ -1,0 +1,46 @@
+{
+  "understood_as": "Spend 2 extra days focused on Operating Systems exam prep, reducing time allocated to Probability Problem Set 6 to the minimum needed.",
+  "scenario": {
+    "question": "What if I spend two days on exam prep instead of the assignment?",
+    "options": [
+      {
+        "id": "option_a",
+        "label": "Exam-first: heavy prep focus, do assignment last-minute",
+        "plan": [
+          {
+            "task_id": "upcoming_exam_001",
+            "hours_per_day": [5.0, 5.0, 4.0, 4.0]
+          },
+          {
+            "task_id": "upcoming_asgn_001",
+            "hours_per_day": [1.0, 1.0, 2.0]
+          },
+          {
+            "task_id": "upcoming_quiz_001",
+            "hours_per_day": [1.0, 0.5]
+          }
+        ]
+      },
+      {
+        "id": "option_b",
+        "label": "Balanced: equal daily time split across all tasks",
+        "plan": [
+          {
+            "task_id": "upcoming_exam_001",
+            "hours_per_day": [3.0, 3.0, 3.0, 3.0]
+          },
+          {
+            "task_id": "upcoming_asgn_001",
+            "hours_per_day": [2.0, 2.0, 2.0]
+          },
+          {
+            "task_id": "upcoming_quiz_001",
+            "hours_per_day": [1.0, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  "clarification_needed": false,
+  "clarification_question": null
+}

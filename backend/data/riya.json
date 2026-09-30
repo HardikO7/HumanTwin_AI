@@ -1,0 +1,1586 @@
+{
+  "persona": {
+    "name": "Riya",
+    "semester": "Spring 2025",
+    "generated_on": "2025-06-16",
+    "seed": 7
+  },
+  "timetable": [
+    {
+      "weekday": 0,
+      "subject": "Data Structures",
+      "start": "09:00",
+      "end": "10:30",
+      "type": "lecture"
+    },
+    {
+      "weekday": 0,
+      "subject": "Data Structures",
+      "start": "14:00",
+      "end": "15:00",
+      "type": "tutorial"
+    },
+    {
+      "weekday": 1,
+      "subject": "Probability",
+      "start": "09:00",
+      "end": "10:30",
+      "type": "lecture"
+    },
+    {
+      "weekday": 1,
+      "subject": "Probability",
+      "start": "14:00",
+      "end": "15:00",
+      "type": "tutorial"
+    },
+    {
+      "weekday": 2,
+      "subject": "Technical Writing",
+      "start": "09:00",
+      "end": "10:30",
+      "type": "lecture"
+    },
+    {
+      "weekday": 2,
+      "subject": "Technical Writing",
+      "start": "14:00",
+      "end": "15:00",
+      "type": "tutorial"
+    },
+    {
+      "weekday": 3,
+      "subject": "Operating Systems",
+      "start": "09:00",
+      "end": "10:30",
+      "type": "lecture"
+    },
+    {
+      "weekday": 3,
+      "subject": "Operating Systems",
+      "start": "14:00",
+      "end": "15:00",
+      "type": "tutorial"
+    },
+    {
+      "weekday": 4,
+      "subject": "Linear Algebra",
+      "start": "09:00",
+      "end": "10:30",
+      "type": "lecture"
+    },
+    {
+      "weekday": 4,
+      "subject": "Linear Algebra",
+      "start": "14:00",
+      "end": "15:00",
+      "type": "tutorial"
+    }
+  ],
+  "past_tasks": [
+    {
+      "id": "task_001",
+      "subject": "Data Structures",
+      "type": "assignment",
+      "planned_hours": 2.3,
+      "actual_hours": 4.55,
+      "due_date": "2025-05-08",
+      "completed_date": "2025-05-08",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_002",
+      "subject": "Data Structures",
+      "type": "reading",
+      "planned_hours": 3.6,
+      "actual_hours": 4.73,
+      "due_date": "2025-05-08",
+      "completed_date": "2025-05-08",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_003",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 2.4,
+      "actual_hours": 5.07,
+      "due_date": "2025-05-08",
+      "completed_date": "2025-05-08",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_004",
+      "subject": "Probability",
+      "type": "reading",
+      "planned_hours": 1.7,
+      "actual_hours": 1.99,
+      "due_date": "2025-05-11",
+      "completed_date": "2025-05-11",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_005",
+      "subject": "Technical Writing",
+      "type": "assignment",
+      "planned_hours": 1.7,
+      "actual_hours": 3.39,
+      "due_date": "2025-05-12",
+      "completed_date": "2025-05-12",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_006",
+      "subject": "Technical Writing",
+      "type": "reading",
+      "planned_hours": 1.8,
+      "actual_hours": 2.16,
+      "due_date": "2025-05-09",
+      "completed_date": "2025-05-09",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_007",
+      "subject": "Operating Systems",
+      "type": "assignment",
+      "planned_hours": 3.1,
+      "actual_hours": 4.59,
+      "due_date": "2025-05-12",
+      "completed_date": "2025-05-12",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_008",
+      "subject": "Operating Systems",
+      "type": "reading",
+      "planned_hours": 2.5,
+      "actual_hours": 2.68,
+      "due_date": "2025-05-09",
+      "completed_date": "2025-05-09",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_009",
+      "subject": "Linear Algebra",
+      "type": "assignment",
+      "planned_hours": 1.6,
+      "actual_hours": 2.92,
+      "due_date": "2025-05-09",
+      "completed_date": "2025-05-09",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_010",
+      "subject": "Linear Algebra",
+      "type": "reading",
+      "planned_hours": 2.9,
+      "actual_hours": 2.9,
+      "due_date": "2025-05-12",
+      "completed_date": "2025-05-12",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_011",
+      "subject": "Technical Writing",
+      "type": "problem_set",
+      "planned_hours": 2.9,
+      "actual_hours": 4.6,
+      "due_date": "2025-05-10",
+      "completed_date": "2025-05-10",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_012",
+      "subject": "Data Structures",
+      "type": "assignment",
+      "planned_hours": 1.7,
+      "actual_hours": 2.35,
+      "due_date": "2025-05-15",
+      "completed_date": "2025-05-15",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_013",
+      "subject": "Data Structures",
+      "type": "reading",
+      "planned_hours": 2.9,
+      "actual_hours": 2.8,
+      "due_date": "2025-05-19",
+      "completed_date": "2025-05-19",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_014",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 2.6,
+      "actual_hours": 3.41,
+      "due_date": "2025-05-17",
+      "completed_date": "2025-05-17",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_015",
+      "subject": "Probability",
+      "type": "reading",
+      "planned_hours": 2.7,
+      "actual_hours": 3.37,
+      "due_date": "2025-05-16",
+      "completed_date": "2025-05-16",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_016",
+      "subject": "Technical Writing",
+      "type": "assignment",
+      "planned_hours": 3.5,
+      "actual_hours": 5.02,
+      "due_date": "2025-05-16",
+      "completed_date": "2025-05-16",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_017",
+      "subject": "Technical Writing",
+      "type": "reading",
+      "planned_hours": 1.7,
+      "actual_hours": 1.77,
+      "due_date": "2025-05-17",
+      "completed_date": "2025-05-17",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_018",
+      "subject": "Operating Systems",
+      "type": "assignment",
+      "planned_hours": 3.3,
+      "actual_hours": 6.97,
+      "due_date": "2025-05-17",
+      "completed_date": "2025-05-17",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_019",
+      "subject": "Operating Systems",
+      "type": "reading",
+      "planned_hours": 3.0,
+      "actual_hours": 3.88,
+      "due_date": "2025-05-16",
+      "completed_date": "2025-05-16",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_020",
+      "subject": "Linear Algebra",
+      "type": "assignment",
+      "planned_hours": 3.4,
+      "actual_hours": 6.21,
+      "due_date": "2025-05-16",
+      "completed_date": "2025-05-16",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_021",
+      "subject": "Linear Algebra",
+      "type": "reading",
+      "planned_hours": 3.8,
+      "actual_hours": 2.98,
+      "due_date": "2025-05-15",
+      "completed_date": "2025-05-15",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_022",
+      "subject": "Technical Writing",
+      "type": "problem_set",
+      "planned_hours": 4.3,
+      "actual_hours": 8.41,
+      "due_date": "2025-05-18",
+      "completed_date": "2025-05-18",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_023",
+      "subject": "Data Structures",
+      "type": "assignment",
+      "planned_hours": 3.2,
+      "actual_hours": 3.9,
+      "due_date": "2025-05-25",
+      "completed_date": "2025-05-25",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_024",
+      "subject": "Data Structures",
+      "type": "reading",
+      "planned_hours": 1.7,
+      "actual_hours": 1.67,
+      "due_date": "2025-05-22",
+      "completed_date": "2025-05-22",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_025",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 3.9,
+      "actual_hours": 4.33,
+      "due_date": "2025-05-22",
+      "completed_date": "2025-05-22",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_026",
+      "subject": "Probability",
+      "type": "reading",
+      "planned_hours": 3.3,
+      "actual_hours": 3.76,
+      "due_date": "2025-05-24",
+      "completed_date": "2025-05-24",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_027",
+      "subject": "Technical Writing",
+      "type": "assignment",
+      "planned_hours": 3.1,
+      "actual_hours": 7.89,
+      "due_date": "2025-05-24",
+      "completed_date": "2025-05-24",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_028",
+      "subject": "Technical Writing",
+      "type": "reading",
+      "planned_hours": 3.3,
+      "actual_hours": 3.59,
+      "due_date": "2025-05-24",
+      "completed_date": "2025-05-24",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_029",
+      "subject": "Operating Systems",
+      "type": "assignment",
+      "planned_hours": 1.6,
+      "actual_hours": 2.21,
+      "due_date": "2025-05-22",
+      "completed_date": "2025-05-22",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_030",
+      "subject": "Operating Systems",
+      "type": "reading",
+      "planned_hours": 2.7,
+      "actual_hours": 3.04,
+      "due_date": "2025-05-23",
+      "completed_date": "2025-05-23",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_031",
+      "subject": "Linear Algebra",
+      "type": "assignment",
+      "planned_hours": 3.4,
+      "actual_hours": 6.19,
+      "due_date": "2025-05-25",
+      "completed_date": "2025-05-25",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_032",
+      "subject": "Linear Algebra",
+      "type": "reading",
+      "planned_hours": 3.8,
+      "actual_hours": 4.54,
+      "due_date": "2025-05-25",
+      "completed_date": "2025-05-25",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_033",
+      "subject": "Operating Systems",
+      "type": "problem_set",
+      "planned_hours": 2.2,
+      "actual_hours": 2.53,
+      "due_date": "2025-05-24",
+      "completed_date": "2025-05-24",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_034",
+      "subject": "Data Structures",
+      "type": "assignment",
+      "planned_hours": 3.7,
+      "actual_hours": 6.54,
+      "due_date": "2025-05-31",
+      "completed_date": "2025-05-31",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_035",
+      "subject": "Data Structures",
+      "type": "reading",
+      "planned_hours": 3.3,
+      "actual_hours": 4.55,
+      "due_date": "2025-06-01",
+      "completed_date": "2025-06-01",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_036",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 3.9,
+      "actual_hours": 6.04,
+      "due_date": "2025-05-30",
+      "completed_date": "2025-05-30",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_037",
+      "subject": "Probability",
+      "type": "reading",
+      "planned_hours": 1.7,
+      "actual_hours": 2.12,
+      "due_date": "2025-05-29",
+      "completed_date": "2025-05-29",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_038",
+      "subject": "Technical Writing",
+      "type": "assignment",
+      "planned_hours": 2.7,
+      "actual_hours": 5.82,
+      "due_date": "2025-06-02",
+      "completed_date": "2025-06-02",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_039",
+      "subject": "Technical Writing",
+      "type": "reading",
+      "planned_hours": 2.0,
+      "actual_hours": 2.16,
+      "due_date": "2025-06-02",
+      "completed_date": "2025-06-02",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_040",
+      "subject": "Operating Systems",
+      "type": "assignment",
+      "planned_hours": 2.4,
+      "actual_hours": 4.41,
+      "due_date": "2025-06-02",
+      "completed_date": "2025-06-02",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_041",
+      "subject": "Operating Systems",
+      "type": "reading",
+      "planned_hours": 2.3,
+      "actual_hours": 3.12,
+      "due_date": "2025-06-02",
+      "completed_date": "2025-06-02",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_042",
+      "subject": "Linear Algebra",
+      "type": "assignment",
+      "planned_hours": 3.1,
+      "actual_hours": 7.05,
+      "due_date": "2025-05-29",
+      "completed_date": "2025-05-29",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_043",
+      "subject": "Linear Algebra",
+      "type": "reading",
+      "planned_hours": 2.6,
+      "actual_hours": 3.69,
+      "due_date": "2025-06-02",
+      "completed_date": "2025-06-02",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_044",
+      "subject": "Operating Systems",
+      "type": "problem_set",
+      "planned_hours": 3.2,
+      "actual_hours": 3.24,
+      "due_date": "2025-06-02",
+      "completed_date": "2025-06-02",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_045",
+      "subject": "Data Structures",
+      "type": "assignment",
+      "planned_hours": 1.8,
+      "actual_hours": 2.71,
+      "due_date": "2025-06-05",
+      "completed_date": "2025-06-05",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_046",
+      "subject": "Data Structures",
+      "type": "reading",
+      "planned_hours": 4.0,
+      "actual_hours": 4.23,
+      "due_date": "2025-06-08",
+      "completed_date": "2025-06-08",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_047",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 1.9,
+      "actual_hours": 2.91,
+      "due_date": "2025-06-05",
+      "completed_date": "2025-06-05",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_048",
+      "subject": "Probability",
+      "type": "reading",
+      "planned_hours": 2.9,
+      "actual_hours": 3.33,
+      "due_date": "2025-06-09",
+      "completed_date": "2025-06-09",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_049",
+      "subject": "Technical Writing",
+      "type": "assignment",
+      "planned_hours": 1.8,
+      "actual_hours": 2.77,
+      "due_date": "2025-06-06",
+      "completed_date": "2025-06-06",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_050",
+      "subject": "Technical Writing",
+      "type": "reading",
+      "planned_hours": 3.0,
+      "actual_hours": 3.39,
+      "due_date": "2025-06-06",
+      "completed_date": "2025-06-06",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_051",
+      "subject": "Operating Systems",
+      "type": "assignment",
+      "planned_hours": 3.1,
+      "actual_hours": 6.87,
+      "due_date": "2025-06-08",
+      "completed_date": "2025-06-08",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_052",
+      "subject": "Operating Systems",
+      "type": "reading",
+      "planned_hours": 1.8,
+      "actual_hours": 1.87,
+      "due_date": "2025-06-08",
+      "completed_date": "2025-06-08",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_053",
+      "subject": "Linear Algebra",
+      "type": "assignment",
+      "planned_hours": 4.0,
+      "actual_hours": 4.83,
+      "due_date": "2025-06-05",
+      "completed_date": "2025-06-05",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_054",
+      "subject": "Linear Algebra",
+      "type": "reading",
+      "planned_hours": 1.9,
+      "actual_hours": 2.17,
+      "due_date": "2025-06-07",
+      "completed_date": "2025-06-07",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_055",
+      "subject": "Probability",
+      "type": "problem_set",
+      "planned_hours": 4.2,
+      "actual_hours": 4.51,
+      "due_date": "2025-06-06",
+      "completed_date": "2025-06-06",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_056",
+      "subject": "Data Structures",
+      "type": "assignment",
+      "planned_hours": 3.9,
+      "actual_hours": 6.57,
+      "due_date": "2025-06-16",
+      "completed_date": "2025-06-16",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_057",
+      "subject": "Data Structures",
+      "type": "reading",
+      "planned_hours": 2.4,
+      "actual_hours": 2.34,
+      "due_date": "2025-06-16",
+      "completed_date": "2025-06-16",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_058",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 2.2,
+      "actual_hours": 2.1,
+      "due_date": "2025-06-12",
+      "completed_date": "2025-06-12",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_059",
+      "subject": "Probability",
+      "type": "reading",
+      "planned_hours": 3.2,
+      "actual_hours": 3.48,
+      "due_date": "2025-06-13",
+      "completed_date": "2025-06-13",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_060",
+      "subject": "Technical Writing",
+      "type": "assignment",
+      "planned_hours": 2.4,
+      "actual_hours": 4.87,
+      "due_date": "2025-06-13",
+      "completed_date": "2025-06-13",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_061",
+      "subject": "Technical Writing",
+      "type": "reading",
+      "planned_hours": 2.8,
+      "actual_hours": 3.16,
+      "due_date": "2025-06-13",
+      "completed_date": "2025-06-13",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_062",
+      "subject": "Operating Systems",
+      "type": "assignment",
+      "planned_hours": 3.0,
+      "actual_hours": 3.85,
+      "due_date": "2025-06-13",
+      "completed_date": "2025-06-13",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_063",
+      "subject": "Operating Systems",
+      "type": "reading",
+      "planned_hours": 3.5,
+      "actual_hours": 4.27,
+      "due_date": "2025-06-13",
+      "completed_date": "2025-06-13",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_064",
+      "subject": "Linear Algebra",
+      "type": "assignment",
+      "planned_hours": 2.0,
+      "actual_hours": 2.2,
+      "due_date": "2025-06-15",
+      "completed_date": "2025-06-15",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_065",
+      "subject": "Linear Algebra",
+      "type": "reading",
+      "planned_hours": 2.4,
+      "actual_hours": 2.73,
+      "due_date": "2025-06-14",
+      "completed_date": "2025-06-14",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_066",
+      "subject": "Linear Algebra",
+      "type": "problem_set",
+      "planned_hours": 3.4,
+      "actual_hours": 5.15,
+      "due_date": "2025-06-14",
+      "completed_date": "2025-06-14",
+      "postponed": false,
+      "status": "completed"
+    },
+    {
+      "id": "task_decision_01",
+      "subject": "Probability",
+      "type": "assignment",
+      "planned_hours": 3.0,
+      "actual_hours": 0.5,
+      "due_date": "2025-05-24",
+      "completed_date": "2025-05-25",
+      "postponed": true,
+      "status": "completed",
+      "decision_context": {
+        "competing_task": "Probability Midterm",
+        "competing_task_weight": 0.35,
+        "chose": "exam_prep",
+        "rationale": "exam weight > 30%"
+      }
+    },
+    {
+      "id": "task_decision_02",
+      "subject": "Technical Writing",
+      "type": "writing",
+      "planned_hours": 4.0,
+      "actual_hours": 1.0,
+      "due_date": "2025-06-04",
+      "completed_date": "2025-06-05",
+      "postponed": true,
+      "status": "completed",
+      "decision_context": {
+        "competing_task": "Operating Systems Final",
+        "competing_task_weight": 0.4,
+        "chose": "exam_prep",
+        "rationale": "exam weight > 30%"
+      }
+    }
+  ],
+  "study_logs": [
+    {
+      "id": "log_0001",
+      "date": "2025-05-05",
+      "slot": "afternoon",
+      "task_type": "exam_prep",
+      "subject": "Data Structures",
+      "planned_hours": 2.5,
+      "actual_hours": 0.26,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0002",
+      "date": "2025-05-05",
+      "slot": "morning",
+      "task_type": "exam_prep",
+      "subject": "Data Structures",
+      "planned_hours": 0.8,
+      "actual_hours": 0.8,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0003",
+      "date": "2025-05-06",
+      "slot": "morning",
+      "task_type": "exam_prep",
+      "subject": "Data Structures",
+      "planned_hours": 2.8,
+      "actual_hours": 2.7,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0004",
+      "date": "2025-05-06",
+      "slot": "evening",
+      "task_type": "quiz",
+      "subject": "Probability",
+      "planned_hours": 1.5,
+      "actual_hours": 0.87,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0005",
+      "date": "2025-05-06",
+      "slot": "evening",
+      "task_type": "exam_prep",
+      "subject": "Probability",
+      "planned_hours": 2.6,
+      "actual_hours": 0.51,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0006",
+      "date": "2025-05-07",
+      "slot": "evening",
+      "task_type": "writing",
+      "subject": "Data Structures",
+      "planned_hours": 0.8,
+      "actual_hours": 0.47,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0007",
+      "date": "2025-05-07",
+      "slot": "afternoon",
+      "task_type": "assignment",
+      "subject": "Technical Writing",
+      "planned_hours": 1.0,
+      "actual_hours": 0.63,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0008",
+      "date": "2025-05-07",
+      "slot": "afternoon",
+      "task_type": "reading",
+      "subject": "Probability",
+      "planned_hours": 2.2,
+      "actual_hours": 0.34,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0009",
+      "date": "2025-05-08",
+      "slot": "morning",
+      "task_type": "writing",
+      "subject": "Probability",
+      "planned_hours": 1.8,
+      "actual_hours": 1.8,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0010",
+      "date": "2025-05-08",
+      "slot": "afternoon",
+      "task_type": "assignment",
+      "subject": "Linear Algebra",
+      "planned_hours": 2.0,
+      "actual_hours": 0.61,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0011",
+      "date": "2025-05-08",
+      "slot": "morning",
+      "task_type": "assignment",
+      "subject": "Operating Systems",
+      "planned_hours": 1.1,
+      "actual_hours": 0.95,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0012",
+      "date": "2025-05-09",
+      "slot": "evening",
+      "task_type": "exam_prep",
+      "subject": "Operating Systems",
+      "planned_hours": 2.9,
+      "actual_hours": 0.17,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0013",
+      "date": "2025-05-09",
+      "slot": "evening",
+      "task_type": "writing",
+      "subject": "Operating Systems",
+      "planned_hours": 1.8,
+      "actual_hours": 1.42,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0014",
+      "date": "2025-05-11",
+      "slot": "morning",
+      "task_type": "assignment",
+      "subject": "Probability",
+      "planned_hours": 1.5,
+      "actual_hours": 1.43,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0015",
+      "date": "2025-05-12",
+      "slot": "evening",
+      "task_type": "problem_set",
+      "subject": "Operating Systems",
+      "planned_hours": 2.2,
+      "actual_hours": 1.78,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0016",
+      "date": "2025-05-12",
+      "slot": "morning",
+      "task_type": "writing",
+      "subject": "Technical Writing",
+      "planned_hours": 3.0,
+      "actual_hours": 2.31,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0017",
+      "date": "2025-05-12",
+      "slot": "afternoon",
+      "task_type": "reading",
+      "subject": "Linear Algebra",
+      "planned_hours": 0.7,
+      "actual_hours": 0.28,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0018",
+      "date": "2025-05-13",
+      "slot": "evening",
+      "task_type": "problem_set",
+      "subject": "Technical Writing",
+      "planned_hours": 2.9,
+      "actual_hours": 1.77,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0019",
+      "date": "2025-05-13",
+      "slot": "afternoon",
+      "task_type": "quiz",
+      "subject": "Technical Writing",
+      "planned_hours": 0.9,
+      "actual_hours": 0.15,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0020",
+      "date": "2025-05-14",
+      "slot": "afternoon",
+      "task_type": "assignment",
+      "subject": "Technical Writing",
+      "planned_hours": 0.6,
+      "actual_hours": 0.08,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0021",
+      "date": "2025-05-15",
+      "slot": "evening",
+      "task_type": "assignment",
+      "subject": "Technical Writing",
+      "planned_hours": 0.7,
+      "actual_hours": 0.48,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0022",
+      "date": "2025-05-16",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Technical Writing",
+      "planned_hours": 2.8,
+      "actual_hours": 1.39,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0023",
+      "date": "2025-05-16",
+      "slot": "morning",
+      "task_type": "reading",
+      "subject": "Probability",
+      "planned_hours": 1.0,
+      "actual_hours": 0.19,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0024",
+      "date": "2025-05-16",
+      "slot": "afternoon",
+      "task_type": "assignment",
+      "subject": "Technical Writing",
+      "planned_hours": 1.6,
+      "actual_hours": 0.13,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0025",
+      "date": "2025-05-19",
+      "slot": "evening",
+      "task_type": "writing",
+      "subject": "Operating Systems",
+      "planned_hours": 1.8,
+      "actual_hours": 0.28,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0026",
+      "date": "2025-05-20",
+      "slot": "evening",
+      "task_type": "quiz",
+      "subject": "Probability",
+      "planned_hours": 2.5,
+      "actual_hours": 1.48,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0027",
+      "date": "2025-05-21",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Operating Systems",
+      "planned_hours": 1.0,
+      "actual_hours": 0.22,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0028",
+      "date": "2025-05-22",
+      "slot": "morning",
+      "task_type": "quiz",
+      "subject": "Operating Systems",
+      "planned_hours": 2.6,
+      "actual_hours": 2.32,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0029",
+      "date": "2025-05-22",
+      "slot": "evening",
+      "task_type": "problem_set",
+      "subject": "Data Structures",
+      "planned_hours": 2.2,
+      "actual_hours": 1.02,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0030",
+      "date": "2025-05-23",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Data Structures",
+      "planned_hours": 2.9,
+      "actual_hours": 0.48,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0031",
+      "date": "2025-05-23",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Linear Algebra",
+      "planned_hours": 1.0,
+      "actual_hours": 0.58,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0032",
+      "date": "2025-05-26",
+      "slot": "morning",
+      "task_type": "reading",
+      "subject": "Probability",
+      "planned_hours": 0.9,
+      "actual_hours": 0.69,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0033",
+      "date": "2025-05-26",
+      "slot": "evening",
+      "task_type": "exam_prep",
+      "subject": "Operating Systems",
+      "planned_hours": 2.7,
+      "actual_hours": 0.48,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0034",
+      "date": "2025-05-27",
+      "slot": "afternoon",
+      "task_type": "quiz",
+      "subject": "Linear Algebra",
+      "planned_hours": 2.3,
+      "actual_hours": 0.03,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0035",
+      "date": "2025-05-28",
+      "slot": "afternoon",
+      "task_type": "reading",
+      "subject": "Linear Algebra",
+      "planned_hours": 2.3,
+      "actual_hours": 0.1,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0036",
+      "date": "2025-05-28",
+      "slot": "evening",
+      "task_type": "reading",
+      "subject": "Probability",
+      "planned_hours": 2.6,
+      "actual_hours": 0.64,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0037",
+      "date": "2025-05-28",
+      "slot": "morning",
+      "task_type": "quiz",
+      "subject": "Probability",
+      "planned_hours": 0.6,
+      "actual_hours": 0.45,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0038",
+      "date": "2025-05-29",
+      "slot": "afternoon",
+      "task_type": "reading",
+      "subject": "Linear Algebra",
+      "planned_hours": 0.5,
+      "actual_hours": 0.11,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0039",
+      "date": "2025-05-29",
+      "slot": "morning",
+      "task_type": "quiz",
+      "subject": "Probability",
+      "planned_hours": 2.1,
+      "actual_hours": 2.07,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0040",
+      "date": "2025-05-30",
+      "slot": "evening",
+      "task_type": "exam_prep",
+      "subject": "Technical Writing",
+      "planned_hours": 2.1,
+      "actual_hours": 0.88,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0041",
+      "date": "2025-05-31",
+      "slot": "evening",
+      "task_type": "quiz",
+      "subject": "Operating Systems",
+      "planned_hours": 1.9,
+      "actual_hours": 0.57,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0042",
+      "date": "2025-06-01",
+      "slot": "evening",
+      "task_type": "reading",
+      "subject": "Operating Systems",
+      "planned_hours": 1.8,
+      "actual_hours": 1.54,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0043",
+      "date": "2025-06-02",
+      "slot": "afternoon",
+      "task_type": "reading",
+      "subject": "Data Structures",
+      "planned_hours": 1.0,
+      "actual_hours": 0.06,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0044",
+      "date": "2025-06-02",
+      "slot": "morning",
+      "task_type": "assignment",
+      "subject": "Technical Writing",
+      "planned_hours": 2.4,
+      "actual_hours": 1.81,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0045",
+      "date": "2025-06-03",
+      "slot": "afternoon",
+      "task_type": "exam_prep",
+      "subject": "Operating Systems",
+      "planned_hours": 2.7,
+      "actual_hours": 1.7,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0046",
+      "date": "2025-06-04",
+      "slot": "morning",
+      "task_type": "quiz",
+      "subject": "Data Structures",
+      "planned_hours": 2.6,
+      "actual_hours": 2.54,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0047",
+      "date": "2025-06-04",
+      "slot": "evening",
+      "task_type": "problem_set",
+      "subject": "Technical Writing",
+      "planned_hours": 1.2,
+      "actual_hours": 0.57,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0048",
+      "date": "2025-06-05",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Probability",
+      "planned_hours": 0.8,
+      "actual_hours": 0.07,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0049",
+      "date": "2025-06-06",
+      "slot": "afternoon",
+      "task_type": "quiz",
+      "subject": "Operating Systems",
+      "planned_hours": 1.8,
+      "actual_hours": 0.56,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0050",
+      "date": "2025-06-06",
+      "slot": "evening",
+      "task_type": "quiz",
+      "subject": "Operating Systems",
+      "planned_hours": 1.9,
+      "actual_hours": 0.03,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0051",
+      "date": "2025-06-07",
+      "slot": "evening",
+      "task_type": "assignment",
+      "subject": "Linear Algebra",
+      "planned_hours": 2.4,
+      "actual_hours": 0.21,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0052",
+      "date": "2025-06-09",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Technical Writing",
+      "planned_hours": 1.5,
+      "actual_hours": 0.59,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0053",
+      "date": "2025-06-10",
+      "slot": "evening",
+      "task_type": "reading",
+      "subject": "Probability",
+      "planned_hours": 2.2,
+      "actual_hours": 1.32,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0054",
+      "date": "2025-06-10",
+      "slot": "afternoon",
+      "task_type": "writing",
+      "subject": "Linear Algebra",
+      "planned_hours": 2.8,
+      "actual_hours": 0.38,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0055",
+      "date": "2025-06-11",
+      "slot": "morning",
+      "task_type": "assignment",
+      "subject": "Operating Systems",
+      "planned_hours": 0.7,
+      "actual_hours": 0.61,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0056",
+      "date": "2025-06-12",
+      "slot": "afternoon",
+      "task_type": "exam_prep",
+      "subject": "Probability",
+      "planned_hours": 2.4,
+      "actual_hours": 1.11,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0057",
+      "date": "2025-06-12",
+      "slot": "evening",
+      "task_type": "writing",
+      "subject": "Data Structures",
+      "planned_hours": 1.8,
+      "actual_hours": 0.47,
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": "log_0058",
+      "date": "2025-06-13",
+      "slot": "morning",
+      "task_type": "writing",
+      "subject": "Data Structures",
+      "planned_hours": 1.5,
+      "actual_hours": 0.9,
+      "completed": true,
+      "notes": ""
+    },
+    {
+      "id": "log_0059",
+      "date": "2025-06-13",
+      "slot": "afternoon",
+      "task_type": "reading",
+      "subject": "Operating Systems",
+      "planned_hours": 2.3,
+      "actual_hours": 0.33,
+      "completed": false,
+      "notes": ""
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_001",
+      "description": "Maintain GPA above 3.5",
+      "priority": "high",
+      "metric": "gpa",
+      "target": 3.5
+    },
+    {
+      "id": "goal_002",
+      "description": "Complete all assignments on time",
+      "priority": "medium",
+      "metric": "on_time_rate",
+      "target": 1.0
+    },
+    {
+      "id": "goal_003",
+      "description": "Average 6+ study hours on weekdays",
+      "priority": "medium",
+      "metric": "avg_weekday_hours",
+      "target": 6.0
+    }
+  ],
+  "habits": [
+    {
+      "id": "habit_001",
+      "label": "Morning study block",
+      "typical_start": "08:00",
+      "typical_duration_h": 2.0,
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
+      "follow_through_rate": 0.85
+    },
+    {
+      "id": "habit_002",
+      "label": "Evening review",
+      "typical_start": "20:00",
+      "typical_duration_h": 1.5,
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "follow_through_rate": 0.55
+    },
+    {
+      "id": "habit_003",
+      "label": "Weekend deep work",
+      "typical_start": "10:00",
+      "typical_duration_h": 3.0,
+      "days": [
+        "Sat"
+      ],
+      "follow_through_rate": 0.65
+    }
+  ],
+  "upcoming_tasks": [
+    {
+      "id": "upcoming_exam_001",
+      "subject": "Operating Systems",
+      "type": "exam",
+      "label": "Final Exam",
+      "weight": 0.4,
+      "due_date": "2025-06-20",
+      "estimated_hours_needed": 8.0,
+      "status": "pending"
+    },
+    {
+      "id": "upcoming_asgn_001",
+      "subject": "Probability",
+      "type": "assignment",
+      "label": "Problem Set 6",
+      "weight": 0.1,
+      "due_date": "2025-06-19",
+      "estimated_hours_needed": 3.0,
+      "status": "pending"
+    },
+    {
+      "id": "upcoming_quiz_001",
+      "subject": "Linear Algebra",
+      "type": "quiz",
+      "label": "Weekly Quiz 6",
+      "weight": 0.05,
+      "due_date": "2025-06-22",
+      "estimated_hours_needed": 1.0,
+      "status": "pending"
+    }
+  ]
+}

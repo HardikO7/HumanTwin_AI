@@ -1,0 +1,38 @@
+{
+  "understood_as": "Take it easy this weekend — reduce study load, focus on rest and light review only.",
+  "scenario": {
+    "question": "take it easy this weekend",
+    "options": [
+      {
+        "id": "option_a",
+        "label": "Light review only (1–2 h/day)",
+        "plan": [
+          {
+            "task_id": "upcoming_exam_001",
+            "hours_per_day": [1.0, 1.0]
+          },
+          {
+            "task_id": "upcoming_asgn_001",
+            "hours_per_day": [0.5, 0.5]
+          }
+        ]
+      },
+      {
+        "id": "option_b",
+        "label": "Full rest — no study this weekend",
+        "plan": [
+          {
+            "task_id": "upcoming_exam_001",
+            "hours_per_day": [0.0, 0.0]
+          },
+          {
+            "task_id": "upcoming_asgn_001",
+            "hours_per_day": [0.0, 0.0]
+          }
+        ]
+      }
+    ]
+  },
+  "clarification_needed": true,
+  "clarification_question": "By 'take it easy', do you mean light review sessions (1-2 h/day) or a complete break from studying this weekend?"
+}

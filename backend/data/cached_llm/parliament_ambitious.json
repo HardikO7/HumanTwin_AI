@@ -1,0 +1,6 @@
+{
+  "self": "Ambitious",
+  "vote": "option_a",
+  "argument": "The exam carries 40% of the grade versus only 10% for the assignment. Based on Riya's observed pattern of prioritising exams when weight exceeds 30% — confirmed in 2 past decisions — Option A maximises expected grade impact. The higher on-time probability for the exam under this plan directly protects the highest-value deliverable.",
+  "evidence": ["belief_exam_priority", "belief_avg_effort_mult"]
+}
