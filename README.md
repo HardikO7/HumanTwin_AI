@@ -12,7 +12,7 @@ how you *actually* behave (the "Say-Do Gap"), not what you say.
 ### Prerequisites
 - Python 3.11+
 - Node 18+
-- (Optional) MongoDB URI if you want persistence beyond in-memory state
+- App changes are stored in local JSON files; see the deployment persistence note below.
 
 ### 1. Backend
 
@@ -68,6 +68,39 @@ All tests should pass and produce **identical numbers** on every run.
 
 ---
 
+## Deploy (Vercel + Render)
+
+The repository includes a Render Blueprint at `render.yaml` and a Vercel SPA
+rewrite at `frontend/vercel.json`. Push the contents of this repository to
+GitHub, then:
+
+1. In Render, create a Blueprint from the GitHub repository and apply
+    `render.yaml`. Enter `GEMINI_API_KEY` as a secret. `FRONTEND_ORIGIN` is also
+    requested; use a temporary origin until the Vercel deployment is ready.
+2. Wait for the Render service to deploy, then verify
+    `https://<render-service>.onrender.com/health` returns `{"status":"ok",...}`.
+3. In Vercel, import the same repository and set the project root directory to
+    `frontend`. Use the Vite preset, build command `npm run build`, and output
+    directory `dist`.
+4. Set the Vercel environment variable `VITE_API_BASE_URL` to
+    `https://<render-service>.onrender.com` with no trailing slash and no `/api`
+    suffix. Redeploy Vercel.
+5. Copy the Vercel production origin (for example,
+    `https://<project>.vercel.app`) into Render's `FRONTEND_ORIGIN`, then redeploy
+    Render. This exact origin is required by FastAPI CORS.
+
+Never put `GEMINI_API_KEY` in Vercel or in a `VITE_` variable. Vercel preview
+domains are not covered by the single `FRONTEND_ORIGIN` setting; use the
+production domain or extend the backend CORS allowlist for preview domains.
+
+**Persistence:** Tasks, memories, events, and chat are saved to JSON files under
+`backend/data/`. Render's filesystem is ephemeral, so these edits can reset on
+restarts or redeploys. `MONGO_URI` is currently reserved and is not connected to
+the state layer; add database or persistent-disk support before relying on saved
+user data in production.
+
+---
+
 ## Environment Variables
 
 See [`.env.example`](.env.example) for all options.
@@ -77,7 +110,7 @@ See [`.env.example`](.env.example) for all options.
 | `LLM_PROVIDER` | `mock` | `mock \| gemini \| watsonx \| claude` |
 | `GEMINI_API_KEY` | *(blank)* | Server-side Gemini API key; required for `LLM_PROVIDER=gemini` |
 | `GEMINI_MODEL` | `gemini-3.8-flash` | Gemini model used for interpretation and Parliament responses |
-| `MONGO_URI` | *(blank)* | If set, uses MongoDB; otherwise local JSON |
+| `MONGO_URI` | *(blank)* | Reserved; MongoDB persistence is not currently implemented |
 | `PORT` | `8000` | Backend port |
 | `FRONTEND_ORIGIN` | `http://localhost:5173` | CORS origin |
 

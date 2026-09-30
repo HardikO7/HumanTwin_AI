@@ -10,7 +10,9 @@ import {
 } from '../api/client'
 import type { TaskInput, TaskPlanItem, TaskPlanResponse, UpcomingTask } from '../types'
 
-type TaskDraft = Pick<TaskInput, 'subject' | 'type' | 'label' | 'due_date' | 'estimated_hours_needed' | 'weight' | 'priority'>
+type TaskDraft = Omit<Pick<TaskInput, 'subject' | 'type' | 'label' | 'due_date' | 'estimated_hours_needed' | 'weight' | 'priority'>, 'priority'> & {
+  priority: NonNullable<TaskInput['priority']>
+}
 
 function tomorrow(): string {
   const date = new Date()
@@ -90,7 +92,7 @@ function TaskEditor({
         <input className="task-form-input" type="number" min="0" max="100" step="1" value={Math.round((draft.weight ?? 0) * 100)} onChange={event => setField('weight', Number(event.target.value) / 100)} />
       </label>
       <label className="task-form-field">Priority
-        <select className="task-form-input" value={draft.priority ?? 'medium'} onChange={event => setField('priority', event.target.value as TaskInput['priority'])}><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select>
+        <select className="task-form-input" value={draft.priority} onChange={event => setField('priority', event.target.value as NonNullable<TaskInput['priority']>)}><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select>
       </label>
       {error && <p className="task-error" role="alert">{error}</p>}
       <div className="task-form-actions">
